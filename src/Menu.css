@@ -1,6 +1,13 @@
 .menu
 {
-    border-bottom: darkgray 1px solid;
+
+}
+.items-align{
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 button{
     margin-top: 5px;

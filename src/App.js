@@ -6,11 +6,15 @@ import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div className="App container-fluid w-100 h-100">
-      <Menu />
-      <div className="row h-75 w-100">
-      <Sidebar />
-      <AddNewTodo />
+    <div className="App">
+      <div className = "container-fluid h-25 text-center">
+        <Menu />
+      </div>
+      <div className="container-fluid h-75" >
+        <div className="row h-100">
+          <Sidebar />
+          <AddNewTodo />
+        </div>
       </div>
     </div>
   );
