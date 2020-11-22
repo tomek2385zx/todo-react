@@ -3,9 +3,24 @@ import ReactDOM from 'react-dom';
 import './Menu.css';
 
 class Menu extends React.Component {
+    
+    getCurrentDate(separator=''){
+
+        let newDate = new Date()
+        let date = newDate.getDate();
+        let month = newDate.getMonth() + 1;
+        let year = newDate.getFullYear();
+        
+        let DayOfWeek = newDate.getDay();
+
+
+
+        return 1;
+    }
+
     render(){
         return(
-            <div className="menu row text-center h-100 d-inline-block">
+            <div className="row text-center h-100 d-inline-block">
                 <div className="col-md-12 h-100 items-align">
                     <button type="button" class="btn btn-outline-info">Poniedziałek</button>
                     <button type="button" class="btn btn-outline-info">Wtorek</button>

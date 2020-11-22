@@ -7,10 +7,10 @@ import Sidebar from './Sidebar';
 function App() {
   return (
     <div className="App">
-      <div className = "container-fluid h-25 text-center">
+      <div className = "menu container-fluid text-center">
         <Menu />
       </div>
-      <div className="container-fluid h-75" >
+      <div className="content container-fluid" >
         <div className="row h-100">
           <Sidebar />
           <AddNewTodo />

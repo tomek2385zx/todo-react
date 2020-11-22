@@ -1,6 +1,6 @@
 .menu
 {
-
+    height: 15% !important;
 }
 .items-align{
     display: flex;
